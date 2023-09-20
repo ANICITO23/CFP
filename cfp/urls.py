@@ -19,7 +19,8 @@ from django.urls import path
 from tasks import views
 urlpatterns = [
     path('admin/', admin.site.urls),
-    #como crear una url
-    path('',views.home,name='home'),
+    #como crear una ur
+    path('',views.index,name='index'),
+    path('home/',views.home,name='home'),
     path('signup/',views.signup,name='signup')
 ]
