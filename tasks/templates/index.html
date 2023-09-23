@@ -1,13 +1,43 @@
-{% load static %}
-
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <title>Mi página web</title>
-  <link rel="stylesheet" href="{% static 'indexS.css' %}">
+  {% load static %}
+  <link rel="stylesheet" href="{% static 'styles/indexS.css' %}">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
 </head>
+
 <body>
-  <h1>Mi página web</h1>
-  <p>Este es el contenido de mi página web.</p>
+  <!--Header Dising-->
+  <header>
+      <a href="#" class="logo"><i class='bx bxs-brain'></i>CFP</a>
+      <ul class="navbar">
+        <li><a href="#" class="active">overview</a></li>
+        <li><a href="#">Teach Specs</a></li>
+        <li><a href="#">Reviews</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+
+      <div class="header-icons">
+        <i class='bx bx-user-circle'></i>
+        <div class="bx bx-menu" id="menu-icon"></div>
+      </div>
+  </header>
+  <!--home Dising-->
+ <section class="home">
+  <div class]="home-img">
+    <img src="#">
+  </div>
+ </section>
+
 </body>
+<section>
+  <article></article>
+</section>
+<footer></footer>
 </html>
